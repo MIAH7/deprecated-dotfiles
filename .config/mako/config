@@ -1,0 +1,16 @@
+# max-visible=3
+# font=Ubuntu
+# default-timeout=5000
+
+max-visible=3
+font=Ubuntu 10
+background-color=#2e3440
+margin=5
+border-color=#606060FF
+border-size=1
+border-radius=0
+default-timeout=8000
+layer=overlay
+anchor=top-center
+width=330
+height=350

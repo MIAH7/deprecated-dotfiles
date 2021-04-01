@@ -1,0 +1,48 @@
+shell:
+  program: /bin/zsh
+  args:
+    - --login  
+
+
+# Background
+background_opacity: 0.8
+
+
+# Fonts configuration
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+
+  bold:
+    family: JetBrains Mono
+    style: Bold
+
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+  size: 9
+
+
+# Colors
+colors:
+   primary:
+     background: '#2e3440'
+     foreground: '#c5c8c6'
+
+
+# Text colors
+   normal:
+     black:   '#3b4252'
+     red:     '#bf616a'
+     green:   '#a3be8c'
+     yellow:  '#ebcb8b'
+     blue:    '#81a1c1'
+     magenta: '#b48ead'
+     cyan:    '#88c0d0'
+     white:   '#eceff4'
