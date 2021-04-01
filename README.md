@@ -1,6 +1,6 @@
 # My desktop setup
 And i use Arch BTW
-![Screenshot](https://github.com/MIAH7/dotfiles/blob/main/screenshot.png)
+![Screenshot](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot.png)
 
 ## Setup
 * Linux distribution - Arch Linux
