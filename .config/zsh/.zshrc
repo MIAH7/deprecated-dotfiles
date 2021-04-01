@@ -1,5 +1,5 @@
 ### ANTIGEN ###
-source ~/antigen.zsh
+source ~/.antigen.zsh
 antigen use oh-my-zsh
 
 # Antigen plugins
