@@ -2,6 +2,7 @@
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 set number
 set expandtab ts=4 sw=4 ai
+set clipboard+=unnamedplus
 
 "Key binds
 nmap FF :NERDTreeToggle<CR>
@@ -20,6 +21,7 @@ call plug#end()
 colorscheme nord
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
+
 "Appearance
 highlight Normal ctermbg=Black
 highlight NonText ctermbg=Black
