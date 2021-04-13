@@ -25,6 +25,9 @@ set $menu wofi --show=drun,run
 # Screen locker
 set $lock swaylock -e --indicator --clock -F
 
+# Clipboard history
+bindsym $mod+h exec clipman pick -t wofi
+
 
 
 #####################
@@ -33,7 +36,7 @@ set $lock swaylock -e --indicator --clock -F
 
 # Keyboard layout
 input * {
-    xkb_layout us,ru
+    xkb_layout us,ru,ua
     xkb_options grp:caps_toggle
     xkb_capslock disable
 }
@@ -215,8 +218,8 @@ default_border pixel 2px
 default_floating_border pixel 2px
 
 # Wallpapers
-output "DVI-I-1" bg ~/Pictures/Wallpapers/wallpaper.jpg fill
-output "VGA-1" bg #2e3440 solid_color 
+output "DVI-I-1" bg ~/Pictures/Wallpapers/forest.jpg fill
+output "VGA-1" bg #3b4252 solid_color 
 
 # Fonts
 font pango:Ubuntu 14px
@@ -250,8 +253,9 @@ for_window [window_role="bubble"] floating enable
 for_window [window_role="dialog"] floating enable
 
 # Autostart
+exec wl-paste -t text --watch clipman store
+exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 exec autotiling
-exec kdeconnect-indicator
 exec mako
 
 # Includes
