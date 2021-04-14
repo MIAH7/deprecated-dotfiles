@@ -4,8 +4,9 @@
     "position": "top",
     "height": 20,
     "width": 1280,
-    "modules-left": ["sway/workspaces"],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "sway/language", "clock", "tray"],
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "sway/language", "tray"],
 
 
 
@@ -14,20 +15,28 @@
     "sway/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
-        "format": "{name}"
+        "format": "{name}",
+        "persistent_workspaces": {
+            "1": [], "2": [], "3": [], "4": [], "5": [],
+            "6": [], "7": [], "8": [], "9": []
     },
+},
+
+
+    "sway/mode": {
+        "format": "{}",
+},
 
 
     "tray": {
-        "icon-size": 20,
+        "icon-size": 15,
         "spacing": 10
- },
+},
 
 
     "clock": {
-        "timezone": "Europe/Kiev",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format": "{:%H:%M | %Y-%m-%d-%a}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 },
 
 
