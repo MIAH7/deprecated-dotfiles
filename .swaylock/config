@@ -1,0 +1,7 @@
+ignore-empty-password
+show-failed-attempts
+daemonize
+show-keyboard-layout
+indicator-caps-lock
+font=Ubuntu
+image=~/Pictures/Wallpapers/forest.jpg
