@@ -9,6 +9,7 @@
 * Windows manager - sway
 * Application launcher - wofi
 * Screenlock - swaylock
+* Clipboard - wl-clipboard, clipman
 * Bar - waybar
 * Terminal - alacritty
 * Text editor - neovim
@@ -24,4 +25,4 @@
 
 * Autotiling - https://github.com/nwg-piotr/autotiling
 
-Other packages to install - playerctl, pavucontrol
+Other packages to install - playerctl, pavucontrol, wl-clipboard, clipman
