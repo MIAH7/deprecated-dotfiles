@@ -1,7 +1,7 @@
 # My dotfiles
 
 ![Screenshot](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot.png)
-
+![Screenshot2](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot-2.png) 
 ## Setup
 
 * Operating system - Arch Linux
@@ -10,7 +10,7 @@
 * Application launcher - wofi
 * Screenlock - swaylock
 * Clipboard - wl-clipboard, clipman
-* Bar - waybar
+* Status bar - waybar
 * Terminal - alacritty
 * Text editor - neovim
 * Notifications - mako
@@ -25,4 +25,5 @@
 
 * Autotiling - https://github.com/nwg-piotr/autotiling
 
+## Other
 Other packages to install - playerctl, pavucontrol, wl-clipboard, clipman
