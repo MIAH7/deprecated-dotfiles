@@ -20,13 +20,13 @@ set $mod Mod4
 set $term alacritty
 
 # Application launcher
-set $menu wofi --show=drun,run
+set $menu bemenu-run -l 15 -H 20 --line-height=20 --fn Ubuntu --tb=#2e3440 --tf=#eceff4 --fb=#2e3440 --ff=#eceff4 --nb=#2e3440 --nf=#eceff4 --hb=#2e3440 --hf=#bf616a --sb=#2e3440 --sf=#eceff4
 
 # Screen locker
-set $lock swaylock -e --indicator --clock -F
+set $lock swaylock
 
 # Clipboard history
-bindsym $mod+h exec clipman pick -t wofi
+bindsym --to-code $mod+h exec clipman pick -t wofi
 
 
 
@@ -51,7 +51,7 @@ input * {
 # Basics
 #
     # Screen lock
-	bindsym --to-code $mod+Alt+l exec $lock
+	bindsym --to-code $mod+l exec $lock
 
     # Start a terminal
 	bindsym --to-code $mod+Return exec $term
@@ -122,11 +122,6 @@ input * {
     # $mod+b or $mod+v, for horizontal and vertical splits
     bindsym --to-code $mod+b splith
     bindsym --to-code $mod+v splitv
-
-    # Switch the current container between different layout styles
-    bindsym --to-code $mod+s layout stacking
-    bindsym --to-code $mod+w layout tabbed
-    bindsym --to-code $mod+e layout toggle split
 
     # Make the current focus fullscreen
     bindsym --to-code $mod+f fullscreen

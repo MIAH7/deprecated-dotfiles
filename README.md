@@ -9,7 +9,7 @@
 * Operating system - Arch Linux
 * Shell - zsh
 * Windows manager - sway
-* Application launcher - wofi
+* Application launcher - bemenu
 * Screenlock - swaylock
 * Clipboard - wl-clipboard, clipman
 * Status bar - waybar
