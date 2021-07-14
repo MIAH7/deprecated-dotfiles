@@ -8,7 +8,7 @@ Laptop configuration coming soon...
 * Shell - zsh
 * Wayland compositor - sway
 #### Programs and utilities
-* Application launcher - bemenu
+* Application launcher - wofi
 * Screenlock - swaylock-effects
 * Clipboard - wl-clipboard, clipman
 * Status bar - waybar
