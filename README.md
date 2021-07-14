@@ -9,7 +9,7 @@ Laptop configuration coming soon...
 * Wayland compositor - sway
 #### Programs and utilities
 * Application launcher - bemenu
-* Screenlock - swaylock
+* Screenlock - swaylock-effects
 * Clipboard - wl-clipboard, clipman
 * Status bar - waybar
 * Terminal - alacritty
