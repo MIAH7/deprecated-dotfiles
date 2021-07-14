@@ -31,3 +31,6 @@ Laptop configuration coming soon...
 ![Screenshot](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot.png)
 
 ![Screenshot2](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot-2.png) 
+
+![Screenshot3](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot-3.png)
+
