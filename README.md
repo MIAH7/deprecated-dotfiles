@@ -1,14 +1,13 @@
 # My dotfiles
-
-![Screenshot](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot.png)
-
-![Screenshot2](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot-2.png) 
+Laptop configuration coming soon...
 
 ## Setup
 
+#### System
 * Operating system - Arch Linux
 * Shell - zsh
-* Windows manager - sway
+* Wayland compositor - sway
+#### Programs and utilities
 * Application launcher - bemenu
 * Screenlock - swaylock
 * Clipboard - wl-clipboard, clipman
@@ -16,18 +15,19 @@
 * Terminal - alacritty
 * Text editor - neovim
 * Notifications - mako
-* Screenshots - grim + slurp + swappy
+* Screenshots - grim, slurp, swappy
 * Screen recording - wf-recorder
-* Fonts - ttf-ubuntu-font-family, ttf-jetbrains-mono, otf-font-awesome
+#### Apearance
+* Fonts - Ubuntu-Font-Family, JetBrains Mono, Font-Awesome
 * GTK theme - Nordic Darker
-* Qt theme - kvantum-theme-nordic
+* Qt theme - Nordic (Kvantum theme)
 * Icon theme - Papirus Dark
 * Cursor theme - Numix Cursor Light
+#### Scripts
+* ![autotiling](https://github.com/nwg-piotr/autotiling)
 
-## Scripts
+## Screenshots
 
-* Autotiling - https://github.com/nwg-piotr/autotiling
+![Screenshot](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot.png)
 
-## Other
-
-Other packages to install - playerctl, pavucontrol, qt5ct, kvantum
+![Screenshot2](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot-2.png) 
