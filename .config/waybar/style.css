@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: Ubuntu;
+    font-family: Ubuntu, Font Awesome;
     font-size: 13px;
     min-height: 0;
 }
@@ -138,8 +138,7 @@ label:focus {
 
 #memory {
     background-color: #434c5e;
-    border-radius: 0 5px 5px 0;
-    margin: 0 4px 0 0;
+
 }
 
 #network {
@@ -172,5 +171,8 @@ label:focus {
     border-radius: 5;
     margin: 0 5px;
     min-width: 16px;
+    border-radius: 0 5px 5px 0;
+    margin: 0 4px 0 0;
+
 
 }
