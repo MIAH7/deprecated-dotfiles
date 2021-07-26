@@ -5,19 +5,19 @@ background_opacity: 0.9
 # Fonts configuration
 font:
   normal:
-    family: JetBrains Mono
+    family: JetBrains Mono NL Medium
     style: Regular
 
   bold:
-    family: JetBrains Mono
+    family: JetBrains Mono NL Medium
     style: Bold
 
   italic:
-    family: JetBrains Mono
+    family: JetBrains Mono NL Medium
     style: Italic
 
   bold_italic:
-    family: JetBrains Mono
+    family: JetBrains Mono NL Medium
     style: Bold Italic
 
   size: 9

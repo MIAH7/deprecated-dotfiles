@@ -24,7 +24,7 @@ set $menu wofi --show=drun, run
 #bemenu-run -l 15 -H 20 --line-height=20 --fn Ubuntu --tb=#2e3440 --tf=#eceff4 --fb=#2e3440 --ff=#eceff4 --nb=#2e3440 --nf=#eceff4 --hb=#2e3440 --hf=#bf616a --sb=#2e3440 --sf=#eceff4
 
 # Screen locker
-set $lock swaylock --effect-blur 20x0
+set $lock swaylock
 
 # Clipboard history
 bindsym --to-code $mod+h exec clipman pick -t wofi
@@ -67,7 +67,7 @@ input * {
 	bindsym --to-code $mod+Shift+c reload
 
     # Exit sway
-	bindsym --to-code $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+	bindsym --to-code $mod+Shift+e exec swaynag -t warning -m  'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
 
 
 #
@@ -214,7 +214,7 @@ default_border pixel 2px
 default_floating_border pixel 2px
 
 # Wallpapers
-output "DVI-I-1" bg ~/Pictures/Wallpapers/winter-art.jpg fill
+output "DVI-I-1" bg ~/Pictures/Wallpapers/futuristic-art.jpg fill
 # output "VGA-1" bg ~/Pictures/Wallpapers/futuristic.jpg fill
 output "VGA-1" bg #000000 solid_color 
 
@@ -255,6 +255,7 @@ exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/cli
 exec autotiling
 exec mako
 exec systemctl --user import-environment
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Includes
 include ~/.config/sway/MyDesktopConfiguration

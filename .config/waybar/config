@@ -17,14 +17,19 @@
         "all-outputs": true,
         "format": "{name}",
         "persistent_workspaces": {
-            "1": [], "2": [], "3": [], "4": [], "5": [],
-            "6": [], "7": [], "8": [], "9": [], "10": []
+            "1": [], "2": [], "3": [], "4": [], "5": [], "6": [], "7": [], "8": [], "9": [], "10": []
     },
 },
 
 
     "sway/mode": {
         "format": "{}",
+},
+
+
+    "sway/language": {
+        "format": "{} ",
+        "max-length": 50
 },
 
 
@@ -35,7 +40,7 @@
 
 
     "clock": {
-        "format": "{:%H:%M | %Y-%m-%d | %A}",
+        "format": "{:%H:%M · %Y-%m-%d · %A}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 },
 
@@ -48,7 +53,7 @@
 
 
     "memory": {
-        "format": "{}% "
+        "format": "{}% "
 },
 
 
@@ -71,7 +76,7 @@
 
     "network": {
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ifname} ",
+        "format-ethernet": "{ifname} ",
         "format-disconnected": "Disconnected ⚠",
         "on-click": "nm-connection-editor"
 },
