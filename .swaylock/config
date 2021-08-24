@@ -1,12 +1,13 @@
 indicator
 clock
+timestr=%I:%M %p
 ignore-empty-password
 show-failed-attempts
 daemonize
 show-keyboard-layout
 indicator-caps-lock
 font=Ubuntu
-image=~/Pictures/Wallpapers/winter-art.jpg
+image=~/Pictures/Wallpapers/futuristic-art.jpg
 inside-color=2e3440
 key-hl-color=4c566a
 layout-text-color=eceff4
@@ -29,3 +30,4 @@ inside-wrong-color=bf616a
 line-wrong-color=434c5e
 ring-wrong-color=3b4252
 text-wrong-color=eceff4
+effect-blur=20x0
