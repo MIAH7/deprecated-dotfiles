@@ -40,7 +40,7 @@
 
 
     "clock": {
-        "format": "{:%H:%M · %Y-%m-%d · %A}",
+        "format": "{:%I:%M %p · %Y-%m-%d · %A}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 },
 
