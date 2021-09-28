@@ -25,12 +25,3 @@ Laptop configuration coming soon...
 * Cursor theme - Numix Cursor Light
 #### Scripts
 * ![autotiling](https://github.com/nwg-piotr/autotiling)
-
-## Screenshots
-
-![Screenshot](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot.png)
-
-![Screenshot2](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot-2.png) 
-
-![Screenshot3](https://github.com/MIAH7/dotfiles/blob/main/Pictures/Screenshots/screenshot-3.png)
-
