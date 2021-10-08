@@ -194,6 +194,24 @@ bindsym --to-code $mod+r mode "resize"
 
 
 
+######################
+#Output congiguration#
+######################
+
+#
+# Dispays
+#
+output DVI-I-1 mode 1440x900@74Hz
+output DVI-I-1 pos 0 0
+output DVI-I-1 adaptive_sync on
+output VGA-1 mode 1280x1024@75Hz
+output VGA-1 pos 1440 0
+output VGA-1 adaptive_sync on
+workspace 1 output DVI-I-1
+workspace 10 output VGA-1
+
+
+
 ############
 #Appearance#
 ############
@@ -214,8 +232,7 @@ default_border pixel 2px
 default_floating_border pixel 2px
 
 # Wallpapers
-output "DVI-I-1" bg ~/Pictures/Wallpapers/futuristic-art.jpg fill
-# output "VGA-1" bg ~/Pictures/Wallpapers/futuristic.jpg fill
+output "DVI-I-1" bg ~/Pictures/Wallpapers/wallhaven-493j3k.jpg fill
 output "VGA-1" bg #000000 solid_color 
 
 # Fonts
@@ -258,4 +275,3 @@ exec systemctl --user import-environment
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Includes
-include ~/.config/sway/MyDesktopConfiguration

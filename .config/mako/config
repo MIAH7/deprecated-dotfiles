@@ -11,6 +11,6 @@ border-size=1
 border-radius=0
 default-timeout=8000
 layer=overlay
-anchor=top-center
+anchor=top-right
 width=330
 height=350
