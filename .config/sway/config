@@ -170,13 +170,17 @@ bindsym --to-code $mod+r mode "resize"
 # Screenshots
 #
     # Take a screenshot
-    bindsym --to-code Print exec grim ~/Pictures/Screenshots/screenshot-"$(date +%s)".png
+    bindsym --to-code Print exec grimshot --notify copy screen
+    bindsym --to-code Shift+Print exec grimshot --notify save screen ~/Pictures/Screenshots/screenshot-$(date  +"%Y%m%d-%H%M%S").png
 
-    # Take a screenshot of selected region and edit
-    bindsym --to-code $mod+Shift+Print exec grim -g "$(slurp)" - | swappy -f -
+    # Take a screenshot of the selected area
+    bindsym --to-code Ctrl+Print exec grimshot --notify copy area
+    bindsym --to-code Shift+Ctrl+Print exec grimshot --notify save area ~/Pictures/Screenshots/screenshot-$(date  +"%Y%m%d-%H%M%S").png
 
-    # Take a screenshot of selected region
-    bindsym --to-code $mod+Print exec slurp | grim -g - ~/Pictures/Screenshots/screenshot-"$(date +%s)".png
+    # Take a screenshot of the active window
+    bindsym --to-code Alt+Print exec grimshot --notify copy active
+    bindsym --to-code Shift+Alt+Print exec grimshot --notify save active ~/Pictures/Screenshots/screenshot-$(date  +"%Y%m%d-%H%M%S").png
+
 
 #
 # Multimedia keys

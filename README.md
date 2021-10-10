@@ -1,5 +1,4 @@
 # My dotfiles
-Laptop configuration coming soon...
 
 ## Setup
 
@@ -15,7 +14,7 @@ Laptop configuration coming soon...
 * Terminal - alacritty
 * Text editor - neovim
 * Notifications - mako
-* Screenshots - grim, slurp, swappy
+* Screenshots - grimshot, grim, slurp, swappy
 * Screen recording - wf-recorder
 #### Apearance
 * Fonts - Ubuntu-Font-Family, JetBrains Mono, Font-Awesome
