@@ -171,15 +171,15 @@ bindsym --to-code $mod+r mode "resize"
 #
     # Take a screenshot
     bindsym --to-code Print exec grimshot --notify copy screen
-    bindsym --to-code Shift+Print exec grimshot --notify save screen ~/Pictures/Screenshots/screenshot-$(date  +"%Y%m%d-%H%M%S").png
+    bindsym --to-code Ctrl+Print exec grimshot --notify save screen ~/Pictures/Screenshots/screenshot-$(date  +"%Y%m%d-%H%M%S").png
 
     # Take a screenshot of the selected area
-    bindsym --to-code Ctrl+Print exec grimshot --notify copy area
+    bindsym --to-code Shift+Print exec grimshot --notify copy area
     bindsym --to-code Shift+Ctrl+Print exec grimshot --notify save area ~/Pictures/Screenshots/screenshot-$(date  +"%Y%m%d-%H%M%S").png
 
     # Take a screenshot of the active window
     bindsym --to-code Alt+Print exec grimshot --notify copy active
-    bindsym --to-code Shift+Alt+Print exec grimshot --notify save active ~/Pictures/Screenshots/screenshot-$(date  +"%Y%m%d-%H%M%S").png
+    bindsym --to-code Ctrl+Alt+Print exec grimshot --notify save active ~/Pictures/Screenshots/screenshot-$(date  +"%Y%m%d-%H%M%S").png
 
 
 #
