@@ -1,13 +1,4 @@
-# ________  ___       __   ________      ___    ___ 
-#|\   ____\|\  \     |\  \|\   __  \    |\  \  /  /|
-#\ \  \___|\ \  \    \ \  \ \  \|\  \   \ \  \/  / /
-# \ \_____  \ \  \  __\ \  \ \   __  \   \ \    / / 
-#  \|____|\  \ \  \|\__\_\  \ \  \ \  \   \/  /  /  
-#    ____\_\  \ \____________\ \__\ \__\__/  / /    
-#   |\_________\|____________|\|__|\|__|\___/ /     
-#   \|_________|                       \|___|/      
-
-
+exec systemctl --user import-environment
 
 ###########
 #Variables#
@@ -275,7 +266,5 @@ exec wl-paste -t text --watch clipman store
 exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 exec autotiling
 exec mako
-exec systemctl --user import-environment
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
+exec kdeconnect-indicator
 # Includes
