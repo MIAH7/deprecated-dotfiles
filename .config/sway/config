@@ -28,7 +28,7 @@ bindsym --to-code $mod+h exec clipman pick -t wofi
 
 # Keyboard layout
 input * {
-    xkb_layout us,ru(ruu)
+    xkb_layout us,ru
     xkb_options grp:caps_toggle
     xkb_capslock disable
 }
@@ -61,7 +61,7 @@ input * {
 	bindsym --to-code $mod+Shift+e exec swaynag -t warning -m  'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
     
     # Switch window to tabbed layout
-    bindsym $mod+w layout tabbed
+    bindsym --to-code $mod+w layout tabbed
 
 
 #
@@ -265,6 +265,7 @@ for_window [window_role="bubble"] floating enable
 for_window [window_role="dialog"] floating enable
 
 # Autostart
+exec xrandr --output XWAYLAND1 --primary
 exec wl-paste -t text --watch clipman store
 exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 exec autotiling
