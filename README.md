@@ -1,7 +1,5 @@
 # My dotfiles
 
-## Setup
-
 #### System
 * Operating system - Arch Linux
 * Shell - zsh
