@@ -1,6 +1,5 @@
 "Includes
 source ~/.config/nvim/plugins.vim
-source ~/.config/nvim/keybinds.vim
 
 "Settings
 set number
