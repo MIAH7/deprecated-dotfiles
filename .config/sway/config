@@ -28,7 +28,7 @@ bindsym --to-code $mod+h exec clipman pick -t wofi
 
 # Keyboard layout
 input * {
-    xkb_layout us,ru
+    xkb_layout us(altgr-intl),ru(ruu)
     xkb_options grp:caps_toggle
     xkb_capslock disable
 }
